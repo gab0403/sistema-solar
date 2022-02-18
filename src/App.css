@@ -1,3 +1,16 @@
 .App {
   text-align: center;
 }
+.planetsList {
+  display: flex;
+  justify-content: center;
+}
+
+.planetsList img {
+  width: 150px;
+}
+
+.planetsList p {
+  text-align: center;
+}
+
