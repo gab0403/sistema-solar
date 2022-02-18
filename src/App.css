@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 .planetsList {
   display: flex;
   justify-content: center;
@@ -13,4 +14,3 @@
 .planetsList p {
   text-align: center;
 }
-
