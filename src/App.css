@@ -11,6 +11,55 @@
   width: 150px;
 }
 
+.planetsList img:hover {
+  transform: translateY(-10px);
+  transition: all 0.2s;
+}
+
 .planetsList p {
+  color: white;
+  font-size: 20px;
   text-align: center;
+}
+
+.missionList {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 24px;
+  margin-right: 16px;
+  opacity: 60%;
+  padding: 12px;
+  width: 300px;
+}
+
+.missionCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.missionList:hover {
+  box-shadow: 3px 3px 23px 3px black;
+  opacity: 100%;
+  transform: translateY(-10px);
+  transition: all 0.2s;
+}
+
+.header {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  background-image: url('/src/components/567288.jpg');
+  background-size: cover;
 }
